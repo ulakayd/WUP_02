@@ -52,7 +52,7 @@ This graph shows the cultivation method c52 produces more VitC in cabbage.
 favstats(VitC~Cult,data=veggy)
 ```
 
-this table shows the cultivation method of c52 produces more VitC than the c39 method.
+The mean number of VitC in cultivation method c52 shows a higher average VitC level than that of that cultivation method c39.
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
@@ -61,12 +61,13 @@ this table shows the cultivation method of c52 produces more VitC than the c39 m
 t.test(VitC~Cult,data=veggy)
 ```
 
-the original question asks is there a difference in VitC in cultivation methods on cabbage.
-the p-value is 0.00000003405 < 0.05 you reject the null hypothesis and the cultivation method produces more VitC than cultivation method c39.
+the p-value is 0.00000003405 < 0.05 you reject the null hypothesis and the cultivation method c52 produces more VitC than cultivation method c39.
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
 
 # Discussion and Conclusion
+the original question asks is there a difference in VitC in cultivation methods of cabbage. We reject the null hypothesis that there is no difference in cultivation methods and VitC with a p-value of less than 0.05 We can conclude that method c52 produces more VitC in cabbage than c39.
+
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
