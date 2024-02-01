@@ -25,6 +25,10 @@ veggy <- cabbages
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+predict VitC based on cultivation method.
+VitC is numerical
+Cultivation is catergorical, so use the numerical-cat helper file.
+
 
 # Results
 
@@ -33,6 +37,13 @@ veggy <- cabbages
 ## Descriptive Results
 
 ### Graphical Descriptive Results
+
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+
+This graph shows the cultivation method c52 produces more VitC in cabbage.
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
