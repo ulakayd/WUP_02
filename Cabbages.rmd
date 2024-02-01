@@ -16,6 +16,7 @@ veggy <- cabbages
 
 # Introduction
 
+
 <!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?!-->
  The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following question.  
  
